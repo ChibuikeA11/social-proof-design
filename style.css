@@ -1,0 +1,169 @@
+.first_caption {
+
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    font-family: 'League Spartan' , 'sans-serif';
+    font-weight: 700;
+
+}
+
+.second_caption {
+
+    color:  hsl(300, 43%, 22%);
+    font-size: 15px;
+    font-family: 'League Spartan'  , 'sans-serif';
+    font-weight: 60px;
+    margin-top: 30px;
+}
+
+.Reviews, .Reviews1, .Reviews2 {
+
+    background-color: hsl(300, 24%, 96%);
+    font-size: 15px;
+    font-family: 'League Spartan'  , 'sans-serif';
+    font-weight: 200;
+    margin-top: 10px;
+    color: gold;
+    display: flex;
+    border: 16px solid hsl(300, 24%, 96%);
+    border-radius: 5px;
+    
+}
+
+.Second_div {
+
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.indiv1 {
+
+    width: 50%;
+}
+
+.Reviewsdiv {
+    margin-top: 50px;
+    width: 50%;
+}
+.Rev {
+
+    margin: 0px;
+    margin-left: 10px;
+    color:  hsl(300, 43%, 22%);
+
+}
+.Reviews{
+    margin-right: 4rem;
+
+}
+
+.Reviews1 {
+    
+    margin-left: 3rem;
+    margin-right: 2rem;
+
+}
+
+.Reviews2 {
+    
+    margin-left: 6rem;
+
+}
+
+.div1, .div2, .div3 {
+    background-color: hsl(300, 43%, 22%);
+    font-size: 15px;
+    font-family: 'League Spartan'  , 'sans-serif';
+    width: 800px;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 5px solid  hsl(300, 43%, 22%);
+}
+.Third_div {
+
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    gap: 2rem;
+
+}
+
+.image {
+
+    border-radius: 50%;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.Buyer {
+
+    display: flex;
+    margin: 0px;
+    margin-right: 5px;
+    
+}
+
+.verified1, .verified2, .verified3 {
+
+    margin: 0px;
+    color:hsl(333, 80%, 67%);
+
+}
+
+h3 {
+
+    margin: 0px;
+}
+
+.text1 {
+
+    font-family: 'League Spartan'  , 'sans-serif';
+}
+
+.divhead {
+
+    height: 60px;
+    margin-left: 3rem;
+    margin-top: 18px;
+    margin-right: 2.5rem;
+}
+
+.div101 {
+
+    max-width: 100%
+}
+
+
+@media screen and (max-width:700px) {
+    .Third_div {
+        display: flex;
+        flex-direction: column;
+        width: 600px; 
+        margin: 0 auto;
+    }
+    .Second_div {
+
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        flex-wrap: wrap; 
+
+    }
+    .Reviewsdiv {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%; 
+    }
+
+}
+
+
+
+
+
